@@ -1,8 +1,8 @@
 import oracledb
 
 connection = oracledb.connect(
-    user="aysel",
-    password="12345",
+    user="your_username",
+    password="your_password",
     dsn="localhost:1521/orcl"
 )
 cursor = connection.cursor()
